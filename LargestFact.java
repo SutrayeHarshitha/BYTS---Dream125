@@ -1,8 +1,6 @@
 public class LargestFact {
 
-
     public static int largestFactor(int num) {
-        
         for (int i = num / 2; i >= 2; i--) {
             if (num % i == 0) {
                 return i; 

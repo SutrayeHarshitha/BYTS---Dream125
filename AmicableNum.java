@@ -1,7 +1,7 @@
 /*Sum of factors of n1 equals to n2 and sum of factors of n2 is equal to n1 
 ex:220,284 &1184,1210 */
 
-import java.util.Scanner;  
+import java.util.*;
 public class AmicableNum  {
     public static void main (String args[])  {  
         int firstDiv = 0, secondDiv = 0;  
